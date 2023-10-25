@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/mobile.css">
+</head>
+<body>
+    <div class="mobile">
+        <nav id="navBar">
+            <h1>Icon</h1>
+            <img src="./assets/icon.svg" alt="logo">
+        </nav>
+
+        <main>
+            <div class="title">
+                <h1>Como capturar desde JavaScript a un elemento con Clase o ID</h1>
+            </div>
+
+            <div class="lista" id="listaa">
+                <h1>Índice</h1>
+                <ul>
+                    <a href="#linked-scriptt"><li>1. Enlazar script al html</li></a>
+                    <a href="#file-jss"><li>2. Capturar el elemento desde JavaScript</li></a>
+                    <a href="#examplee"><li>3. Ejemplo práctico</li></a>
+                </ul>
+            </div>
+
+            <div class="info">
+                <div class="linked-script" id="linked-scriptt">
+                    <span>Lo primero es tener anclado el archivo <strong><em>JavaScript</em></strong> desde el archivo <strong><em>HTML</em></strong></span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo1.png" alt="Enlace script a html">
+                    </div>
+                    <p>con la etiqueta <code>script</code> y en el atributo <code>src</code> podemos hacer el llamado al archivo JavaScript</p>
+                </div>
+
+                <div class="file-js" id="file-jss">
+                    <div class="file-one">
+                        <span><strong>Ahora desde el archivo HTML</strong></span>
+                        <div class="back-img">
+                            <img class="photo" src="./assets/photo2.png" alt="Vists html de la sección">
+                            <p>Vamos a capturar la clase <em>lista</em> de la etiqueta <code>div</code> que vemos en en este archivo HTML</p>
+                        </div>
+                    </div>
+
+                    <div class="file-two">
+                        <strong><span>Archivo JS</span></strong>
+                        <div class="back-img">
+                            <img class="photo" src="./assets/photo3.png" alt="Captura de clase con document">
+                        </div>
+                        <p>
+                        Guardamos en una variable esta captura,
+                        aqui se usa la tipo <code>const</code> 
+                        luego el nombre de esta variable, 
+                        le sigue el objeto <code>document</code> 
+                        que hace referencia a los elementos 
+                        que estan presente en una pagina web, 
+                        siguiente <code>querySelector</code> 
+                        que es para 
+                        seleccionar el elemento ya sea ID o Clase</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="example" id="examplee">
+                <div class="example-one">
+                    <span>Si queremos esconder esta sección de la pagina con solo darle click al botón</span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo4.png" alt="Pantallazo de la sección la cual se quieres esconder">
+                    </div>
+                    <p>Se le debe pasar un id o clase a la sección que se quiere esconder para ser mas específico</p>
+                </div>
+
+                <div class="example-two">
+                    <span>Esta vez le colocamos las dos</span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo5.png" alt="etiqueta button con clase y id">
+                    </div>
+                </div>
+
+                <div class="example-three">
+                    <strong><span>Desde el archivo HTML</span></strong>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo7.png" alt="vista html del contenedor que se le puso la clase">
+                    </div>
+                    <p>Podemos ver que el contenedor padre o sección tiene la clase <code>file-two</code></p>
+                </div>
+
+                <div class="example-four">
+                    <strong><span>Desde el archivo JavaScript</span></strong>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo6.png" alt="Captura de clases o id en javascript">
+                    </div>
+                    <p>Acá capturamos el botón y la sección</p>
+                </div>
+
+                <div class="example-five">
+                    <span>De esta manera cuando se le da al botón la sección completa desaparece</span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo10.png" alt="Resultado ejemplo">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="up">
+            <a href="#navBar"><img src="./assets/arrow-up.svg" alt="climb"></a>
+        </div>
+
+        <footer>
+            <h1>@Mateo</h1>
+        </footer>
+    </div>
+
+    <div class="desktop">
+        <nav id="navBar">
+            <h1>Icon</h1>
+            <img src="./assets/icon.svg" alt="logo">
+        </nav>
+
+        <main>
+            <div class="title">
+                <h1>Como capturar desde JavaScript a un elemento con Clase o ID</h1>
+            </div>
+
+            <div class="lista" id="listaa">
+                <h1>Índice</h1>
+                <ul>
+                    <a href="#linked-scriptt"><li>1. Enlazar script al html</li></a>
+                    <a href="#file-jss"><li>2. Capturar el elemento desde JavaScript</li></a>
+                    <a href="#examplee"><li>3. Ejemplo práctico</li></a>
+                </ul>
+            </div>
+
+            <div class="info">
+                <div class="linked-script" id="linked-scriptt">
+                    <span>Lo primero es tener anclado el archivo <strong><em>JavaScript</em></strong> desde el archivo <strong><em>HTML</em></strong></span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo1.png" alt="Enlace script a html">
+                    </div>
+                    <p>con la etiqueta <code>script</code> y en el atributo <code>src</code> podemos hacer el llamado al archivo JavaScript</p>
+                </div>
+
+                <div class="file-js" id="file-jss">
+                    <div class="file-one">
+                        <span><strong>Ahora desde el archivo HTML</strong></span>
+                        <div class="back-img">
+                            <img class="photo" src="./assets/photo2.png" alt="Vists html de la sección">
+                            <p>Vamos a capturar la clase <em>lista</em> de la etiqueta <code>div</code> que vemos en en este archivo HTML</p>
+                        </div>
+                    </div>
+
+                    <div class="file-two">
+                        <strong><span>Archivo JS</span></strong>
+                        <div class="back-img">
+                            <img class="photo" src="./assets/photo3.png" alt="Captura de clase con document">
+                        </div>
+                        <p>
+                        Guardamos en una variable esta captura,
+                        aqui se usa la tipo <code>const</code> 
+                        luego el nombre de esta variable, 
+                        le sigue el objeto <code>document</code> 
+                        que hace referencia a los elementos 
+                        que estan presente en una pagina web, 
+                        siguiente <code>querySelector</code> 
+                        que es para 
+                        seleccionar el elemento ya sea ID o Clase</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="example" id="examplee">
+                <div class="example-one">
+                    <span>Si queremos esconder esta sección de la pagina con solo darle click al botón</span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo4.png" alt="Pantallazo de la sección la cual se quieres esconder">
+                    </div>
+                    <p>Se le debe pasar un id o clase a la sección que se quiere esconder para ser mas específico</p>
+                </div>
+
+                <div class="example-two">
+                    <span>Esta vez le colocamos las dos</span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo5.png" alt="etiqueta button con clase y id">
+                    </div>
+                </div>
+
+                <div class="example-three">
+                    <strong><span>Desde el archivo HTML</span></strong>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo7.png" alt="vista html del contenedor que se le puso la clase">
+                    </div>
+                    <p>Podemos ver que el contenedor padre o sección tiene la clase <code>file-two</code></p>
+                </div>
+
+                <div class="example-four">
+                    <strong><span>Desde el archivo JavaScript</span></strong>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo6.png" alt="Captura de clases o id en javascript">
+                    </div>
+                    <p>Acá capturamos el botón y la sección</p>
+                </div>
+
+                <div class="example-five">
+                    <span>De esta manera cuando se le da al botón la sección completa desaparece</span>
+                    <div class="back-img">
+                        <img class="photo" src="./assets/photo10.png" alt="Resultado ejemplo">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="up">
+            <a href="#navBar"><img src="./assets/arrow-up.svg" alt="climb"></a>
+        </div>
+
+        <footer>
+            <h1>@Mateo</h1>
+        </footer>
+    </div>
+
+    <script src="./JavaScript/index.js"></script>
+</body>
+</html>
