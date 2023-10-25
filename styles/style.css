@@ -221,6 +221,11 @@ main {
 }
 /* DESKTOP */
 
+@media screen and (min-width: 320px) {
+    .desktop {
+        display: none;
+    }
+}
 
 @media screen and (min-width: 1000px) {
     .mobile {
